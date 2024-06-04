@@ -1,0 +1,43 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 36,
+        "width": 200
+    },
+    "display": "Controlled Input",
+    "events": {
+        "AAF": {
+            "caption": "Value is changed",
+            "name": "valueIsChanged"
+        }
+    },
+    "fields": {
+        "AAI": {
+            "caption": "Max Character",
+            "default_val": 1,
+            "editor": "StaticNumber",
+            "name": "maxCharacter",
+            "optional": true,
+            "rank": 0
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": false,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAD": {
+            "caption": "Value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn null;\n\n}"
+            },
+            "name": "value",
+            "value": "text"
+        }
+    },
+    "support_autobinding": false
+}

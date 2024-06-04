@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "technical",
+        "2": "productivity"
+    },
+    "description": "Mobile code validation",
+    "image": "//meta-q.cdn.bubble.io/f1717492996262x945378198055100800/input_24dp_FILL0_wght400_GRAD0_opsz24.svg",
+    "license": "open_source",
+    "name": "Controlled Input"
+}
